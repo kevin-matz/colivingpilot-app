@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wg"
+    app:startDestination="@id/navigation_wg"
+    >
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="de.fhe.ai.colivingpilot.settings.SettingsFragment"
+        android:label="fragment_settings"
+        />
+
+    <fragment
+        android:id="@+id/navigation_wg"
+        android:name="de.fhe.ai.colivingpilot.wg.WgFragment"
+        android:label="fragment_wg"
+        >
+        <action
+            android:id="@+id/action_navigation_wg_to_navigation_settings"
+            app:destination="@id/navigation_settings" />
+        <action
+            android:id="@+id/action_navigation_wg_to_userLongClickDialogFragment"
+            app:destination="@id/userLongClickDialogFragment" />
+        <action
+            android:id="@+id/action_navigation_wg_to_addUserDialogFragment"
+            app:destination="@id/addUserDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/userLongClickDialogFragment"
+        android:name="de.fhe.ai.colivingpilot.wg.modals.userLongClick.UserLongClickDialogFragment"
+        android:label="UserLongClickDialogFragment" />
+    <dialog
+        android:id="@+id/addUserDialogFragment"
+        android:name="de.fhe.ai.colivingpilot.wg.modals.addUser.AddUserDialogFragment"
+        android:label="AddUserDialogFragment" />
+
+</navigation>

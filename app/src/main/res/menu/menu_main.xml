@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tasks"
+        android:icon="@drawable/baseline_task_alt_24"
+        android:title="@string/tasks_menu_item" />
+    <item
+        android:id="@+id/shopping_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:title="@string/shoppinglist_menu_item" />
+    <item
+        android:id="@+id/wg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_people_24"
+        android:title="@string/settings_menu_item" />
+</menu>

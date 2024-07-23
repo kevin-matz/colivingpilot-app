@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:dialogTitle="@string/dialog_title_theme_preference"
+        android:entries="@array/theme_options"
+        android:entryValues="@array/theme_values"
+        android:key="theme_preference"
+        android:summary="@string/summary_theme_preference"
+        android:title="@string/title_theme_preference"
+        app:useSimpleSummaryProvider="true" />
+
+    <de.fhe.ai.colivingpilot.settings.ButtonPreference
+        android:key="leave_wg_button"
+        android:layout="@layout/custom_button_preference" />
+
+
+</PreferenceScreen>
+

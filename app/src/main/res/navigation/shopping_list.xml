@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopping_list"
+    app:startDestination="@id/navigation_shoppinglist"
+    >
+
+    <fragment
+        android:id="@+id/navigation_shoppinglist"
+        android:name="de.fhe.ai.colivingpilot.shoppinglist.ShoppinglistFragment"
+        android:label="fragment_shoppinglist"
+        tools:layout="@layout/fragment_shoppinglist">
+        <action
+            android:id="@+id/action_navigation_shoppinglist_to_shoppingListItemConfigDialogFragment"
+            app:destination="@id/shoppingListItemAddDialogFragment" />
+        <action
+            android:id="@+id/action_navigation_shoppinglist_to_shoppingListItemEditDialogFragment"
+            app:destination="@id/shoppingListItemEditDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/shoppingListItemAddDialogFragment"
+        android:name="de.fhe.ai.colivingpilot.shoppinglist.ShoppingListItemAddDialogFragment"
+        android:label="fragment_shopping_list_item_config_dialog"
+        tools:layout="@layout/fragment_shopping_list_item_add_dialog" >
+        <action
+            android:id="@+id/action_shoppingListItemConfigDialogFragment_to_navigation_shoppinglist"
+            app:destination="@id/navigation_shoppinglist" />
+    </dialog>
+    <dialog
+        android:id="@+id/shoppingListItemEditDialogFragment"
+        android:name="de.fhe.ai.colivingpilot.shoppinglist.ShoppingListItemEditDialogFragment"
+        android:label="fragment_shopping_list_item_edit_dialog"
+        tools:layout="@layout/fragment_shopping_list_item_edit_dialog" >
+        <action
+            android:id="@+id/action_shoppingListItemEditDialogFragment_to_navigation_shoppinglist"
+            app:destination="@id/navigation_shoppinglist" />
+    </dialog>
+
+
+</navigation>

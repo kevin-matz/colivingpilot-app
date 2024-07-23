@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emoji_array">
+
+
+
+        //men and women emoji sorted by age
+        <item>👶</item>
+        <item>👧</item>
+        <item>🧒</item>
+        <item>👦</item>
+        <item>👩‍🦰</item>
+        <item>👨‍🦰</item>
+        <item>👩‍🦱</item>
+        <item>👨‍🦱</item>
+        <item>👩‍🦲</item>
+        <item>👨</item>
+        <item>👩</item>
+        <item>👴</item>
+        <item>👵</item>
+        <item>👨‍🦳</item>
+        <item>👩‍🦳</item>
+        <item>👨‍🦲</item>
+
+        //expression emoji
+        <item>🤓</item>
+        <item>😀</item>
+        <item>😃</item>
+        <item>😄</item>
+        <item>😁</item>
+        <item>😆</item>
+        <item>😅</item>
+
+
+        //drink emoji
+        <item>🍺</item>
+        <item>🍻</item>
+        <item>🍷</item>
+        <item>🍸</item>
+        <item>🍹</item>
+        <item>🍾</item>
+        <item>🥂</item>
+
+        //food emoji
+        <item>🍕</item>
+        <item>🍔</item>
+        <item>🍟</item>
+        <item>🍗</item>
+        <item>🍖</item>
+
+        //animal emoji
+        <item>🐶</item>
+        <item>🐱</item>
+        <item>🐭</item>
+        <item>🐹</item>
+        <item>🐰</item>
+
+
+
+    </string-array>
+</resources>

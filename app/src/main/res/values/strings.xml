@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">CoLivingPilot</string>
+    <string name="label_button_login">Einloggen</string>
+    <string name="label_button_create_account">Account erstellen</string>
+    <string name="label_textview_welcome">Willkommen bei CoLivingPilot!</string>
+    <string name="label_textview_login_title">Login</string>
+    <string name="hint_textfield_password">Passwort</string>
+    <string name="hint_textfield_username">Username</string>
+    <string name="hint_textfield_email">E-Mail</string>
+    <string name="hint_textfield_password_repeat">Passwort wiederholen</string>
+    <string name="snackbar_login_successful">Erfolgreich eingeloggt</string>
+    <string name="snackbar_login_unsuccessful">Login fehlgeschlagen</string>
+    <string name="snackbar_something_went_wrong">Etwas ist schiefgelaufen</string>
+    <string name="snackbar_register_successful">Erfolgreich registriert</string>
+    <string name="snackbar_register_unsuccessful">Registrierung fehlgeschlagen</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tasks_menu_item">Aufgaben</string>
+
+    <string name="settings_menu_item">Einstellungen</string>
+
+    <string name="text_descr_profile_picture">Profilbild</string>
+
+    //actions
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="add">Hinzufügen</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+
+
+    //settings
+    <string name="wg_name_changed">WG Name geändert</string>
+    <string name="title_theme_preference">Theme</string>
+    <string name="summary_theme_preference">Choose between dark or light theme</string>
+    <string name="dialog_title_theme_preference">Select Theme</string>
+    <string name="button_leave_wg_text">WG verlassen</string>
+
+
+    //shoppingList
+    <string name="shoppinglist_menu_item">Einkaufsliste</string>
+    <string name="shoppingList_item_title">Was brauchst du?</string>
+    <string name="shoppingList_item_notes">Etwas genauer bitte!</string>
+    <string name="shoppingList_add_btn">Hinzufügen</string>
+    <string name="dialog_title_add_item">Neues Element hinzufügen</string>
+    <string name="dialog_title_full_note">Vollständige Notiz</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="dialog_ready">Fertig</string>
+
+    <string name="joined_wg_title">Du bist der WG \"%s\" beigetreten!</string>
+    <string name="created_wg_title">Du hast die WG \"%s\" erstellt!</string>
+    <string name="done">Erledigt</string>
+    <string name="join_wg">Tritt einer WG bei</string>
+    <string name="qr_code_scan">QR-Code scannen</string>
+    <string name="or">– oder –</string>
+    <string name="invite">Einladungs-Code</string>
+    <string name="join_wg_btn">Beitreten</string>
+    <string name="create_wg">Erstelle eine WG</string>
+    <string name="number_of_members">Anzahl der Mitglieder</string>
+    <string name="create">Erstellen</string>
+    <string name="in_ein_besseres_nwg_leben_starten">In ein besseres\nWG-Leben starten</string>
+    <string name="erstelle_eine_wg_oder_tritt_einer_bestehenden_wg_bei">Erstelle eine WG oder tritt einer bestehenden WG bei.</string>
+    <string name="new_task">Neue Aufgabe</string>
+    <string name="notes">Notizen</string>
+    <string name="number_of_beerchens">Bierchen:</string>
+    <string name="title">Title</string>
+    <string name="notes_preview">Notizvorschau...</string>
+    <string name="notes_full_view">Volle Notiz...</string>
+    <string name="_1">1</string>
+
+
+</resources>

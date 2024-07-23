@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tasks"
+    app:startDestination="@id/navigation_tasks">
+
+
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="de.fhe.ai.colivingpilot.tasks.TasksFragment"
+        android:label="fragment_tasks"
+        tools:layout="@layout/fragment_tasks" >
+        <action
+            android:id="@+id/action_navigation_tasks_to_task_info"
+            app:destination="@id/task_info" />
+        <action
+            android:id="@+id/action_navigation_tasks_to_taskConfigDialogFragment"
+            app:destination="@id/taskConfigDialogFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/task_info"
+        android:name="de.fhe.ai.colivingpilot.tasks.detail.TaskDetailFragment"
+        android:label="task info"
+        tools:layout="@layout/fragment_task_detail" >
+        <action
+            android:id="@+id/action_task_info_to_taskConfigDialogFragment"
+            app:destination="@id/taskConfigDialogFragment"
+            app:popUpTo="@id/navigation_tasks" />
+    </dialog>
+    <dialog
+        android:id="@+id/taskConfigDialogFragment"
+        android:name="de.fhe.ai.colivingpilot.tasks.TaskConfigDialogFragment"
+        android:label="fragment_task_config_dialog"
+        tools:layout="@layout/fragment_task_config_dialog">
+        <action
+            android:id="@+id/action_taskConfigDialogFragment_to_task_info"
+            app:destination="@id/task_info" />
+        <action
+            android:id="@+id/action_taskConfigDialogFragment_to_navigation_tasks"
+            app:destination="@id/navigation_tasks" />
+    </dialog>
+
+</navigation>
